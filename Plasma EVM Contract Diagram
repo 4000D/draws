@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T12:44:01.992Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="W5WoFOkXO29JWaqb8dNT" version="12.4.2" type="github" pages="1">
+<mxfile host="www.draw.io" modified="2019-12-16T12:44:08.309Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="_gRSuJBIUBtmwa6LV-CE" version="12.4.2" type="github" pages="1">
   <diagram id="aSCXIcqOU6-AkRWjIuGC" name="Page-1">
     <mxGraphModel dx="946" dy="645" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,13 +17,13 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-1" value="RootChain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="230" width="120" height="60" as="geometry"/>
+          <mxGeometry x="274" y="260" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-2" value="RootChainStorage" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="136" y="10" width="120" height="60" as="geometry"/>
+          <mxGeometry x="80" y="40" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-4" value="RootChainEvent" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="264" y="10" width="120" height="60" as="geometry"/>
+          <mxGeometry x="208" y="40" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="_r_2ziUbNTAhI3EfKHJk-6" target="_r_2ziUbNTAhI3EfKHJk-2">
           <mxGeometry relative="1" as="geometry"/>
@@ -32,16 +32,16 @@
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-6" value="RootChainBase" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="200" y="110" width="120" height="60" as="geometry"/>
+          <mxGeometry x="144" y="140" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-7" value="MapperRole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="330" y="110" width="120" height="60" as="geometry"/>
+          <mxGeometry x="274" y="140" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-8" value="SubmitterRole" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="460" y="110" width="120" height="60" as="geometry"/>
+          <mxGeometry x="404" y="140" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="_r_2ziUbNTAhI3EfKHJk-14" value="TON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="230" width="120" height="60" as="geometry"/>
+          <mxGeometry x="484" y="260" width="120" height="60" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
