@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-12-16T12:23:56.332Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="-tj4wEdhMom6IORYh-Bq" version="12.4.2" type="github" pages="3">
+<mxfile host="www.draw.io" modified="2019-12-16T12:24:31.106Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36" etag="30qEEMIF5VYKmM0M7k9D" version="12.4.2" type="github" pages="3">
   <diagram id="ufLERU_JXdTnHDflwyIa" name="Tokamak Network">
     <mxGraphModel dx="826" dy="474" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -23,6 +23,9 @@
         </mxCell>
         <mxCell id="EIf6zYafcBEISbHCfkXg-5" value="Operator" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="EIf6zYafcBEISbHCfkXg-1">
           <mxGeometry x="91" y="348" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="EIf6zYafcBEISbHCfkXg-13" value="TON.transfer(airdrop / reward)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="EIf6zYafcBEISbHCfkXg-1" source="EIf6zYafcBEISbHCfkXg-8" target="EIf6zYafcBEISbHCfkXg-5">
+          <mxGeometry relative="1" as="geometry"/>
         </mxCell>
         <mxCell id="EIf6zYafcBEISbHCfkXg-8" value="JackpotManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="EIf6zYafcBEISbHCfkXg-1">
           <mxGeometry x="206" y="38" width="120" height="60" as="geometry"/>
