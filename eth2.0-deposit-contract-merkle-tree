@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-05T07:40:31.495Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="i2JvTxrfBvxUwAWvayMp" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-05T07:42:07.985Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="CwhRpnWGZpexBaWFQutb" version="12.4.8" type="github">
   <diagram id="4u5Z63EfXxR4Lchaw-iw" name="Page-1">
     <mxGraphModel dx="1139" dy="772" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -10,7 +10,7 @@
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-4" value="height 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="135" width="60" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="AnI-hT9s9K1Gz7mdHwhw-7" value="`h_0`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="AnI-hT9s9K1Gz7mdHwhw-7" value="`h_0`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="120" y="130" width="90" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-8" value="branch[height]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -190,7 +190,7 @@
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-85" value="height 1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="10" y="1134" width="60" height="20" as="geometry"/>
         </mxCell>
-        <mxCell id="AnI-hT9s9K1Gz7mdHwhw-86" value="`h_4`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="AnI-hT9s9K1Gz7mdHwhw-86" value="`h_4`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="120" y="1129" width="90" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-87" value="branch[height]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -205,7 +205,7 @@
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-90" value="`h_0 + h_1`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="1099" width="90" height="30" as="geometry"/>
         </mxCell>
-        <mxCell id="AnI-hT9s9K1Gz7mdHwhw-91" value="`h_0 + h_1`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AnI-hT9s9K1Gz7mdHwhw-91" value="`h_4 + h_5`" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="120" y="1099" width="90" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-92" value="height 2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
@@ -227,10 +227,10 @@
           <mxGeometry x="405" y="1069" width="90" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-98" value="`h_4`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="585" y="1129" width="90" height="30" as="geometry"/>
+          <mxGeometry x="620" y="1099" width="90" height="30" as="geometry"/>
         </mxCell>
         <mxCell id="AnI-hT9s9K1Gz7mdHwhw-99" value="`h_5`" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="675" y="1129" width="90" height="30" as="geometry"/>
+          <mxGeometry x="710" y="1099" width="90" height="30" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
