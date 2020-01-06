@@ -1,1 +1,86 @@
-<mxfile host="www.draw.io" modified="2020-01-06T03:07:06.884Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" version="12.4.8" etag="jwXvCA66rzkKNgZ7-5wd" type="github"><diagram id="6oiX__BVp41KjIguNvd9">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-01-06T03:35:52.151Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="xYcLumyNxqItp38PFA38" version="12.4.8" type="github">
+  <diagram id="6oiX__BVp41KjIguNvd9" name="Page-1">
+    <mxGraphModel dx="1425" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tpChloxvDkVqXyn0Ewe5-1" target="tpChloxvDkVqXyn0Ewe5-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-9" value="onCommit(operator)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="tpChloxvDkVqXyn0Ewe5-8">
+          <mxGeometry x="-0.05" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-1" value="RootChain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="629.97" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-43" value="mint(this, stakedAmount * `\alpha`)&lt;br&gt;mint(jackpot, unstakedAmount * `\beta`)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpChloxvDkVqXyn0Ewe5-7" target="tpChloxvDkVqXyn0Ewe5-42">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-7" value="StakingManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="489.97" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="tpChloxvDkVqXyn0Ewe5-2" target="tpChloxvDkVqXyn0Ewe5-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-6" value="submitNRE()&lt;br&gt;submitORB()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="tpChloxvDkVqXyn0Ewe5-3">
+          <mxGeometry x="0.04" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-2" value="Operator" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="789.97" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpChloxvDkVqXyn0Ewe5-13" target="tpChloxvDkVqXyn0Ewe5-24">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-26" value="&lt;div style=&quot;&quot;&gt;transferFrom(&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; userOrOperator,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; this,&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&amp;nbsp; amount&lt;/div&gt;&lt;div style=&quot;&quot;&gt;)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="tpChloxvDkVqXyn0Ewe5-25">
+          <mxGeometry x="0.0588" y="-1" relative="1" as="geometry">
+            <mxPoint x="-34" y="-1" as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-13" value="StakingManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="150" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpChloxvDkVqXyn0Ewe5-16" target="tpChloxvDkVqXyn0Ewe5-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-20" value="stake(rootchain, amount)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="tpChloxvDkVqXyn0Ewe5-19">
+          <mxGeometry x="0.1091" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-16" value="Operator" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="290" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="tpChloxvDkVqXyn0Ewe5-21" target="tpChloxvDkVqXyn0Ewe5-13">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-23" value="delegate(rootchain, operator, amount)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="tpChloxvDkVqXyn0Ewe5-22">
+          <mxGeometry x="0.36" y="1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-21" value="User" style="shape=umlActor;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="125" y="10" width="30" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-24" value="TON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="150" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-40" value="StakingManager state changes for each new stake / delegate&lt;br&gt;&amp;nbsp;- totalStaked += amount&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- rootchainStaked[rootchain] += amount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- userStaked[rootchain][userOrOperator] += amount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- baseCoinAge[rootchain] += amount / factor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- baseTotalCoinAge += amount / factor&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="265" width="340" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-41" value="StakingManager state changes for each commit&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&amp;nbsp;- factor += FACTOR_INCREMENT&lt;br&gt;&amp;nbsp;-&amp;nbsp;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="650" width="270" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-42" value="TON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="489.97" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="tpChloxvDkVqXyn0Ewe5-44" value="Jackpot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="489.97" width="120" height="60" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
