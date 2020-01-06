@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2020-01-06T03:49:45.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="Z-qZ5opaB1G7dGUJMKhu" version="12.4.8" type="github">
+<mxfile host="www.draw.io" modified="2020-01-06T03:50:03.007Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36" etag="e0d1neJeRo89rIwlZNM9" version="12.4.8" type="github">
   <diagram id="6oiX__BVp41KjIguNvd9" name="Page-1">
     <mxGraphModel dx="1425" dy="801" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         </mxCell>
         <mxCell id="tpChloxvDkVqXyn0Ewe5-26" value="&lt;div&gt;transferFrom(&lt;/div&gt;&lt;div&gt;&amp;nbsp; userOrOperator,&lt;/div&gt;&lt;div&gt;&amp;nbsp; this,&lt;/div&gt;&lt;div&gt;&amp;nbsp; amount&lt;/div&gt;&lt;div&gt;)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 11px ; text-align: center&quot;&gt;mint(this, stakedAmount * `\alpha`)&lt;/span&gt;&lt;br style=&quot;font-size: 11px ; text-align: center&quot;&gt;&lt;span style=&quot;font-size: 11px ; text-align: center&quot;&gt;mint(jackpot, unstakedAmount * `\beta`)&lt;/span&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="tpChloxvDkVqXyn0Ewe5-25">
           <mxGeometry x="0.0588" y="-1" relative="1" as="geometry">
-            <mxPoint x="-34" y="-1" as="offset"/>
+            <mxPoint x="-75.34" y="-20.69" as="offset"/>
           </mxGeometry>
         </mxCell>
         <mxCell id="tpChloxvDkVqXyn0Ewe5-13" value="StakingManager" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -76,10 +76,10 @@
           <mxGeometry x="125" y="10" width="30" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="tpChloxvDkVqXyn0Ewe5-24" value="TON" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="150" width="120" height="60" as="geometry"/>
+          <mxGeometry x="550" y="150" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="tpChloxvDkVqXyn0Ewe5-40" value="StakingManager state changes for each new stake / delegate&lt;br&gt;&lt;br&gt;&amp;nbsp;- totalStaked += amount&lt;br&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- rootchainStaked[rootchain] += amount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- userStaked[rootchain][userOrOperator] += amount&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- baseCoinAge[rootchain] += amount / factor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;&amp;nbsp;- baseTotalCoinAge += amount / factor&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;- processSeigniorage() // seig for staked &amp;amp; unstaked 발행&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="240" width="340" height="150" as="geometry"/>
+          <mxGeometry x="270" y="260" width="340" height="150" as="geometry"/>
         </mxCell>
         <mxCell id="tpChloxvDkVqXyn0Ewe5-41" value="StakingManager state changes for each commit&lt;br class=&quot;Apple-interchange-newline&quot;&gt;&amp;nbsp;- processSeigniorage()&lt;br&gt;&lt;br&gt;processSeigniorage()&lt;br&gt;&amp;nbsp;- factor += FACTOR_INCREMENT&lt;br&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px ; text-align: center&quot;&gt;&amp;nbsp;- mint(this, stakedAmount * `\alpha`)&lt;/span&gt;&lt;br style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px ; text-align: center&quot;&gt;&lt;span style=&quot;background-color: rgb(255 , 255 , 255) ; font-size: 11px ; text-align: center&quot;&gt;&amp;nbsp;- mint(jackpot, unstakedAmount * `\beta`)&lt;br&gt;&lt;br&gt;&amp;nbsp;- `\alpha = lastCommitted`&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="600" y="449.97" width="270" height="140" as="geometry"/>
